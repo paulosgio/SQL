@@ -32,3 +32,9 @@ USE *nome do banco*;
 
 /* Mostrar tabelas do banco */
 SHOW TABLES;
+
+/* Atualizar uma coluna de uma tabela (todos os dados dessa coluna terão o mesmo dado) */
+UPDATE users SET nome = "jhon";
+
+/* Atualizar especificamente na coluna */
+UPDATE users SET nome = "Jhon" WHERE nome = "Paulo";
