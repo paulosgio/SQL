@@ -1,6 +1,9 @@
 /* Se conecta ao mysql (h:server, u:user, p:password) */
 mysql -h localhost -u root -p
 
+/* Criar banco */
+CREATE DATABASE *nome*
+
 /* cria tabela */
 CREATE TABLE users(
     nome VARCHAR(50),
